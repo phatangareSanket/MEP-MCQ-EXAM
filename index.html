@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>MEP Engineering Exam</title>
+  <meta name="description" content="Master Electrical, HVAC, Fire Protection, Plumbing, ELV, BMS & MEP Estimation — a fully offline, browser-only MEP MCQ exam and practice platform.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <noscript>This app requires JavaScript to run — it works fully offline once loaded, but needs JS enabled.</noscript>
+
+  <!-- lib -->
+  <script src="js/lib/utils.js"></script>
+  <script src="js/lib/constants.js"></script>
+  <script src="js/lib/csv.js"></script>
+  <script src="js/lib/charts.js"></script>
+
+  <!-- data layer -->
+  <script src="js/db.js"></script>
+  <script src="js/seed-loader.js"></script>
+  <script src="js/exam-engine.js"></script>
+
+  <!-- shell + router (declares the `Views` registry the view scripts populate) -->
+  <script src="js/app.js"></script>
+
+  <!-- views -->
+  <script src="js/views/dashboard.js"></script>
+  <script src="js/views/examStart.js"></script>
+  <script src="js/views/examRunner.js"></script>
+  <script src="js/views/examResult.js"></script>
+  <script src="js/views/examReview.js"></script>
+  <script src="js/views/practice.js"></script>
+  <script src="js/views/bank.js"></script>
+  <script src="js/views/bookmarks.js"></script>
+  <script src="js/views/performance.js"></script>
+  <script src="js/views/history.js"></script>
+  <script src="js/views/admin.js"></script>
+  <script src="js/views/adminQuestions.js"></script>
+  <script src="js/views/adminQuestionForm.js"></script>
+  <script src="js/views/adminImport.js"></script>
+  <script src="js/views/adminExport.js"></script>
+  <script src="js/views/adminReports.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+question,optionA,optionB,optionC,optionD,correctAnswer,explanation,discipline,topic,subtopic,difficulty,tags,calculationBased
+"What is the primary purpose of an APFC panel?","Increase voltage","Improve power factor","Reduce cable length","Increase frequency",B,"An Automatic Power Factor Correction panel switches capacitor banks to maintain power factor near unity.",Electrical,"Metering & Power Quality","APFC",Basic,"power-factor|panels",false
+"A 415 V three-phase motor draws 42 A at a power factor of 0.85. What is the approximate input power?","24.9 kW","29.3 kW","35.8 kW","20.6 kW",A,"P = root3 x V x I x cos(phi) = 1.732 x 415 x 42 x 0.85 / 1000 = approximately 24.9 kW.",Electrical,"Electrical Fundamentals","Three-Phase Power",Intermediate,"calculation|power",true

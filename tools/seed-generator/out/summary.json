@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-02T05:46:24.794Z",
+  "total": 5000,
+  "byDiscipline": {
+    "Electrical": 1200,
+    "HVAC": 900,
+    "Fire Fighting": 600,
+    "Plumbing": 500,
+    "ELV": 500,
+    "BMS": 300,
+    "MEP Estimation": 400,
+    "Codes & Standards": 300,
+    "Lifts": 150,
+    "Solar": 150
+  },
+  "byDifficulty": {
+    "Basic": 1284,
+    "Intermediate": 2315,
+    "Advanced": 1401
+  },
+  "calculationBased": 3495,
+  "conceptual": 1505
+}
